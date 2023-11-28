@@ -16,8 +16,11 @@ Consigli del giorno
 
 
 **PROBLEMA ESERCIZIO**
+**PALINDROMO**
 1 - Prompt nel quale chiedo all'utente di unserire una parola
 2 - Funzione che stabilisca se una parola è palindroma o meno
+
+**PARI E DISPARI**
 3 - Prompt per far scegliere all'utente pari o dispari
 4 - Prompt per far inserire all'utente un numero tra 1 e 5
 5 - Genero numero random compreso tra 1 e 5 per il computer
