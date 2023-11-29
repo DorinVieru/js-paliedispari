@@ -1,5 +1,17 @@
 // PROMPT PER LA SCELTA TRA PARI E DISPARI
-let scegli = prompt("Inserisci 'pari' o 'dispari'");
+let scegli;
+let check_scegli = true;
+
+// VERIFICO CON DO WHILE CHE SI INSERISCA PARI O DISPARI E NON ALTRI VALORI
+do{
+    scegli = prompt("Inserisci 'pari' o 'dispari'");
+
+    if(scegli== "pari" || scegli== "dispari"){
+        check_scegli = false;
+    }
+}
+while(check_scegli);
+
 console.log(scegli);
 
 // PROMPT PE RINSEIRE UN NUMER TRA 1 E 5
@@ -22,18 +34,18 @@ console.log(sum);
 function oddOrEven(sum) {
     if (scegli == "pari"){
         if (sum % 2 == 0) {
-        console.log(`${sum} è pari. Hai Vinto!`)
+        alert(`${sum} è pari. Hai Vinto!`)
         }
         else {
-            console.log(`${sum} è dispari. Hai Perso!`)
+            alert(`${sum} è dispari. Hai Perso!`)
         }
     }
     else if (scegli == "dispari"){
         if (sum % 2 != 0) {
-            console.log(`${sum} è dispari. Hai Vinto!`)
+            alert(`${sum} è dispari. Hai Vinto!`)
         }
         else {
-            console.log(`${sum} è pari. Hai Perso!`)
+            alert(`${sum} è pari. Hai Perso!`)
         }
     }
 }
